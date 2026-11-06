@@ -1,0 +1,5 @@
+# dsh-lan-sync bundle patch: one host entry. Configuration is optional; the
+# plugin falls back to the profile it is running in and the default ports.
+- insert:
+    - id: lan-sync
+      name: dsh-lan-sync
